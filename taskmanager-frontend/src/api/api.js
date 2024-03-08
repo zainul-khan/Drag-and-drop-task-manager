@@ -10,6 +10,11 @@ export const userProfileApiFunc = async (config) => {
         return response;
 }
 
+export const logoutApiFunc = async (config) => {
+        const response = await axios.get("http://localhost:8000/logout", config);
+        return response;
+}
+
 export const userTasksApiFunc = async (config) => {
         const response = await axios.get("http://localhost:8000/user-tasks", config);
         return response;
@@ -34,3 +39,4 @@ export const deleteTaskApiFunc = async (id, config) => {
         const response = await axios.delete(`http://localhost:8000/user-task?id=${id}`, config);
         return response;
 }
+
