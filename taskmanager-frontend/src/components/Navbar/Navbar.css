@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  background-color: #1D2125;
+  color:  rgb(192, 185, 185);
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.nav-logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-items li {
+  margin: 0 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

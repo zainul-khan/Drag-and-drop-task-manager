@@ -1,0 +1,33 @@
+.page-sidebar {
+    background-color: #1D2125;
+    width: 14%;
+    border-top: 1px solid rgb(144, 142, 142);
+}
+
+.sidebar-heading {
+    color: rgb(192, 185, 185);
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 12px 0;
+}
+
+.profile { 
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+
+.logout-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gray;
+    width: 80px;
+    padding: 6px 12px;
+    border-radius: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.loading-page {
+    height: 100vh;
+    background-color: #4a4949;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
